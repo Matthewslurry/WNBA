@@ -138,8 +138,8 @@ router.get("/write-note", ensureAuthenticated, function (req, res) {
 });
 
 // Home route
-router.get("/users/home", function (req, res) {
-  res.render("./home");   
+router.get("/home", function (req, res) {
+  res.render("./user/home");   
     });
   });
 
