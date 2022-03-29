@@ -7,7 +7,8 @@ const session = require('express-session');
 const passport = require('passport');
 const all_notes = require('./routes/users');
 const config = require('./config/database');
-const fileupload = require('express-fileupload')
+const fileupload = require('express-fileupload');
+
 
 
 //Passport config
